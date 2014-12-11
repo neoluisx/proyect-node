@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>JUEGO DE TRIVIA</title>
+		<link rel="stylesheet/less" type="text/css" href="style.less">
+		<script src="socket.io/socket.io.js"></script>
+		<script src="javascripts/less-1.3.3.min.js"></script>
+		<script src="javascripts/jquery-1.9.1.min.js"></script>
+		<script src="javascripts/core.js"></script>
+		<script type="text/javascript" src="javascripts/chat.js"></script>
+		<script type="text/javascript" src="javascripts/serializeObject.js"></script>
+	</head>
+	<body>
+
+		<div id="latencia">Latencia: <span></span> segs.</div>
+
+		<div id="login-contenedor">
+			<div id="login">
+				<h3>¿Cual es tu nombre?</h3>
+				<input type="text" name="nick" placeholder="..." maxlength="20">
+				<p class="error"></p>
+			</div>
+		</div>
+
+		<div id="contenedor">
+
+			<h1 class="titulo">TRIVIA ONLINE-BO</h1>
+
+			<div id="minicontenedor">
+				<div id="tablero">
+					
+				</div>
+
+				<div id="jugadores">
+					<div id="unirse">
+						Empesar
+					</div>
+				</div>
+			</div>
+
+			<div id="chat">
+				<div id="sala">
+					<div class="texto">
+
+					</div>
+					<textarea placeholder="..."></textarea>
+				</div>
+				<div id="usuarios">
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+doctype 5 html
+block head
+	title=title
+	link(rel='stylesheet', href='/stylesheets/style.css')
+	script(type='text/javascript', src='/javascripts/jquery.js')
+	script(type='text/javascript', src='socket.io/socket.io.js')
+	script(type='text/javascript', src='/javascripts/chat.js')
+	script(type='text/javascript', src='/javascripts/serializeObject.js')
+body
+	header#banner
+		h1 chat node
+	block contenido

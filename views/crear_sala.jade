@@ -1,0 +1,15 @@
+extends layout
+
+block contenido
+	form#sala
+		ul
+			li
+				label nombre de la partida
+				input(type="text" name="nombre")
+			li
+				label cantidad de jugadores
+				input(type="text" name="cantidad")
+			li
+				label cantidad de preguntas
+				input(type="text" name="pregunta")
+				input(type="submit" value="crear")

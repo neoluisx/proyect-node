@@ -1,0 +1,14 @@
+extends layout
+
+block append head
+	script(type='text/javascript', src='/socket.io/socket.io.js')
+	script(type='text/javascript', src='/javascripts/page.js')
+block contenido
+	div.contenido
+		div#pagina
+		div#controles
+			input#mensaje(type='text', placeholder='Ingresa el mensaje')
+		ul
+			li
+				a(href="/crear_sala" id="sala") crear sala
+		div#contaner

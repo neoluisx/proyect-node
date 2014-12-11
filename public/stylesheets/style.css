@@ -1,0 +1,33 @@
+html{height:100%;}
+
+body {
+	margin: 0px; padding: 0px;
+}
+.contenido{
+	border: 1px solid green;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 10px;
+	display: block;
+	padding: 10px;
+}
+#pagina{
+	margin: 0px auto; margin-top: 50px; border: solid 1px black; display: block; width: 60%; height: 60%;
+}
+header {
+	background: black;
+	color: white;
+	height: 50px;
+	padding: 5px;
+}
+footer{
+	padding: 5px; 
+	background: black;
+	color: white; 
+	bottom: 0; 
+	position: asd absolute;
+	width:100px;
+	margin: 0px;
+	height: 50px;
+	text-align: center;
+}
